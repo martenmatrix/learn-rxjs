@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
     "bootstrap": "^5.3.3",
     "next": "14.2.4",
     "react": "^18",
@@ -17,11 +19,16 @@
     "rxjs": "^7.8.1"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.1.0",
+    "@eslint/js": "^9.6.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8",
+    "eslint": "^9.6.0",
     "eslint-config-next": "14.2.4",
-    "typescript": "^5"
+    "eslint-plugin-react": "^7.34.3",
+    "globals": "^15.7.0",
+    "typescript": "^5",
+    "typescript-eslint": "^7.14.1"
   }
 }
